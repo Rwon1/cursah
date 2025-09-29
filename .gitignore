@@ -1,0 +1,23 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.vscode/
+.idea/
+out/
+*.docx
+*.xlsx
+*.csv
+*.html
+*.ps
+.env
+.env.*
+*.rg2
+*.rwproj
+*.rstr
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
